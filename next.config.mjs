@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Important for static deployment
+  output: 'export',
   images: {
-    unoptimized: true,  // Required for Cloudflare Pages
+    unoptimized: true,
   },
 };
 
